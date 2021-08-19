@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tienda</title>
+	<style type="text/css">
+		body{
+	margin: 0;
+	padding: 0;
+	font-family: 'arial bold';
+}
+
+#linea{
+	width: 100%;
+	height: 10px;
+	background: #141414;
+}
+
+#header{
+	width: 100%;
+	height: 111px;
+	background: #0A0A0A;
+}
+
+#header #centro1{
+	width: 1350px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+}
+
+#header #centro1 #logo{
+	width: 550px; border: 0px solid;
+	float: left;
+}
+
+#header #centro1 #logo h2{
+	color: #E3AF76;
+	margin-top: 30px;
+}
+
+#header #centro1 #logo h3{
+	color: #E3AF76;
+	margin-top: 5px;
+}
+
+.img2{
+	width: 85px;
+	height: 85px;
+	margin-top: 13px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50px;
+}
+
+/*----------menu------------------*/
+#header #menu{
+	width: 790px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	float: left;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#header #menu ul li{
+	display: inline-block;
+	font-size: 20px;
+}
+
+#header #menu ul li a{
+	color: #C1915F;
+	text-decoration: none;
+	padding: 7px 15px;
+	margin: 0px 6px;
+}
+
+#header #menu ul li a:hover{
+	background: #292929;
+}
+
+/*---------presentacion--------*/
+
+#presentacion{
+	width: 1350px;
+	height: auto; overflow: hidden;
+	background: #141414;
+}
+
+#presentacion #centro2{
+	width: -10px;
+	margin: 10px;
+}
+
+#presentacion #centro2 #izquierda{
+	width: 640px;
+	border: 0px solid;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+#presentacion #centro2 #izquierda h2{
+	color: #fff;
+	font-weight: lighter;
+}
+
+
+
+.descripcion-pres{
+	color: #666666;
+	text-align: justify;
+}	
+
+.boton{
+	padding: 5px 20px;
+	border-radius: 7px;
+	border: 0px;
+}
+
+.boton:hover{
+	background: #e6e6e6;
+	color: #0b615e;
+}
+
+#presentacion #centro2 #derecha{
+	width: 490px;
+	height: auto; float: right;
+}
+
+.img{
+	width: 460px;
+	height: 290px;
+	border: 4px solid #E3AF76;
+	float: right;
+	margin-right: 118px;
+	margin-top: 5px;
+}
+
+/*------------contenidos-----------------*/
+
+#contenidos{
+	background: #f2f2f2;
+	width: 100%;
+	height: auto; overflow: hidden;
+}
+
+#contenidos #centro3{
+	width: 1200px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+}
+
+#contenidos #centro3 #izquierda{
+	width: 670px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: left;
+}
+
+#contenidos #centro3 #izquierda h3{
+	color: #0b615e;
+	font-size: 22px;
+	text-align: center;
+}
+
+#contenidos #centro3 #izquierda .descripcion{
+	text-align: justify; color: #6e6e6e;
+	margin-top: -10px;
+}
+
+.img-servicios{
+	width: 250px; height: 200px; display: inline-block;
+	padding: 2px; border: 2px solid #ccc;
+	margin: 0px 25px;
+	margin-left: 31px;
+}
+
+/*-----contenido de la derecha---------*/
+
+#contenidos #centro3 #derecha{
+	width: 435px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: right;
+}
+
+#contenidos #centro3 #derecha h3{
+	text-align: center;
+	font-size: 22px;
+	color: #0b615e;
+}
+
+#contenidos #centro3 #derecha article{
+	width: 100%;
+	height: auto; overflow: hidden;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+#contenidos #centro3 #derecha article h4{
+	text-align: left; font-size: 15px;
+}
+
+#contenidos #centro3 #derecha article p{
+	color: #6e6e6e; text-align: justify;
+	margin-top: -22px;
+}
+
+.leer-mas{
+	padding: 4px 10px;
+background: #0A0A0A;
+text-decoration: none;
+float: left;
+border-radius: 5px;
+color: #fff; border: 0px;
+}	
+/*-------pie----------*/
+#pie{
+	width: 130%;
+	height: 90px;
+	background: #333333;
+}
+
+#pie #centro-pie{
+	width: 800px;
+	height: auto; overflow: hidden;
+	margin: auto;
+}
+
+#pie #centro-pie p{
+	color: #fff;
+}
+.email{
+	color: #fff; text-decoration: none;
+}
+.email:hover{
+	text-decoration: underline;
+}
+		
+	</style>
+</head>
+<body>
+	<div id="linea"></div>
+
+	<div id="header">
+		<div id="centro1">
+			<div id="logo">
+				<img src="img/logo.jpg" class="img2">
+				<h2>BANNI</h2>
+				<h3>Elegant Home</h3>
+			</div>
+
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="">Catalogo</a></li>
+					<li><a href="">Servicios</a></li>
+					<li><a href="">Nosotros</a></li>
+					<li><a href="grafico.html">Practicas</a></li>
+				</ul>
+			</div>
+		</div>
+	</div><!--/termina el header-->
+
+	<div id="presentacion">
+		<div id="centro2">
+			<div id="izquierda">
+				<h2>Decore con elegancia, decore con BANNI </h2> 
+				<p class="descripcion-pres">BANNI – Elegant Interiors somos una empresa referente en interiorismo y  mobiliario para interiores y exteriores. Contamos con más de 7.000 proyectos desarrollados y estamos en continua expansión y crecimiento. Nos caracterizamos por obtener la mejor solución para cada cliente, de una manera completamente individual y personalizada con el fin de crear espacios únicos y elegantes.<br>
+				<br>Somos especialistas en cocinas, baños, salones, dormitorios, armarios  y vestidores, puertas, revestimientos y pavimentos así como en muebles de diseño de interior y exterior modernos y de alta calidad.</p>
+				<button class="boton">Más información aquí</button>
+			</div>
+
+			<div id="derecha">
+				<img src="img/imagen1.jpg" class="img">
+			</div>
+		</div>
+	</div>
+
+	<div id="contenidos">
+		<div id="centro3">
+			<div id="izquierda">
+				<h3>BANNI – Elegant Interiors, empresa de referencia en España en alta decoración</h3>
+				<p class="descripcion">
+					Contamos con  más de 1.000.000 de productos de muebles de diseño, cocinas y baños a medida clásicos o modernos,  armarios y vestidores de alta calidad, mobiliario de exterior de lujo, siempre contando con las mejores marcas internacionales.<br>
+
+					<br>Contamos también con nuestra propia firma BANNI con una excelente relación calidad-precio de muebles de cocina, baño, muebles de salón, armarios y vestidores.<br>
+
+					<br>Le ofrecemos todo tipo de objetos de decoración y complementos modernos y clásicos que se adaptan a todos los estilos y necesidades.
+				</p>
+
+				<div id="imagenes">
+					<img src="img/imagen4.jpg" class="img-servicios">
+					<img src="img/imagen3.jpg" class="img-servicios">
+				</div>
+			</div>
+
+			<div id="derecha">
+				<h3>Nuestros Productos </h3>
+				<article>
+					<h4>Cocinas de Diseño a Medida</h4>
+				    <p>
+					    Descubra nuestra gran variedad de cocinas de diseño, modernas, italianas, actuales, clásicas, de exterior y a medida de las mejores firmas a nivel internacional así como de nuestra exclusiva firma de mobiliario de cocina BANNI con una excepcional relación calidad.....
+				    </p>
+				     <a href=""class="leer-mas">Leer más</a>
+				</article>
+				<article>
+				    <h4>Muebles de Diseño</h4>
+				    <p>
+				        En BANNI-Elegant Interiors somos especialistas en muebles de diseño a medida. Ponemos a su disposición una gran variedad de soluciones en muebles italianos, clásicos y modernos y realizamos su proyecto personalizado para el salón y el comedor.....
+				    </p>	
+				    <a href=""class="leer-mas">Leer más</a>		
+				</article>
+				<article>
+					<h4>Armarios y Vestidores a medida</h4>
+					<p>
+						Somos expertos en realizar armarios y vestidores a medida, de diseño, modernos y clásicos. Disponemos de las mejores marcas a nivel internacional y de nuestra propia marca con el fin de satisfacer las necesidades de los clientes más exigentes.....
+					</p>
+					<a href=""class="leer-mas">Leer más</a>
+				</article>
+			</div>
+		</div>
+	</div>
+
+	<div id="pie">
+		<div id="centro-pie">
+			<p>
+				(c) Todos los derechos reservados Diseñado por <a href="mailto: josuelino2017@gmail.com" class="emal"> Josué Lino</a>-2021
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>
